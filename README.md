@@ -1,4 +1,4 @@
-# Netflix Clone
+# Netflix Clone (Homepage)
 
 A responsive Netflix India landing page clone built with HTML and CSS. This project replicates the look and feel of Netflix's homepage, featuring a hero section, feature highlights, FAQ accordion, and footer.
 
