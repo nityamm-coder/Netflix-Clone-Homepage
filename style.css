@@ -204,14 +204,14 @@ section.first>div :nth-child(2) {
 }
 
 .faq h2 {
-    font-size: 48px;
+    font-size: 40px;
     text-align: center;
 }
 
 .faqbox {
     background-color: #2d2d2d;
     color: white;
-    font-size: 23px;
+    font-size: 24px;
     display: flex;
     justify-content: space-between;
     padding: 24px;
@@ -348,11 +348,11 @@ footer .question {
     }
 
     .faq h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .faqbox {
-        font-size: 18px;
+        font-size: 16px;
     }
     .footer-item{
         text-align: center;
