@@ -16,6 +16,7 @@ body {
     background-image: url(assets/img/bg.jpg);
     background-position: center center;
     background-size: max(1200px, 100vw);
+    background-position: 0px 0px;
     height: 700px;
     background-repeat: no-repeat;
     /*prevents img from repeating to fill the container */
@@ -268,6 +269,9 @@ footer .question {
 }
 
 @media screen and (max-width: 1300px) {
+    .main{
+        background-size: max(1300px);
+    }
     .first {
         flex-wrap: wrap;
     }
