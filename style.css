@@ -275,6 +275,9 @@ footer .question {
     .first {
         flex-wrap: wrap;
     }
+    .heading input {
+        padding: 13px 96px 13px 16px;
+    }
 
     .footer {
         grid-template-columns: 1fr 1fr;
