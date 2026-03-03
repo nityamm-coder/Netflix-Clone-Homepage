@@ -149,6 +149,33 @@ nav {
     z-index: 20;
 }
 
+/* Curved separation just after the hero section (Netflix-style red glow) */
+.separation-hero {
+    margin: -3px 0;
+    padding: 1px 0;
+    height: 10px;
+    background-color: #000;
+    position: relative;
+    overflow: hidden; /* hides lower part of the big circle */
+}
+
+.separation-hero::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 198%;
+    height: 260px;
+    top: -210px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 85%,
+            rgba(229, 9, 20, 0.95) 0%,
+            rgba(229, 9, 20, 0.75) 20%,
+            rgba(229, 9, 20, 0.25) 45%,
+            transparent 60%);
+    box-shadow: 0 -10px 35px rgba(229, 9, 20, 0.9);
+}
+
 .first {
     display: flex;
     justify-content: center;
