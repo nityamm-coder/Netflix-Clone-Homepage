@@ -151,12 +151,15 @@ nav {
 
 /* Curved separation just after the hero section (Netflix-style red glow) */
 .separation-hero {
-    margin: -3px 0;
+    margin: -12px 0;
     padding: 1px 0;
-    height: 10px;
+    height: 12px;
     background-color: #000;
     position: relative;
     overflow: hidden; /* hides lower part of the big circle */
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+
 }
 
 .separation-hero::before {
